@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ssocookie/sso-cart/sso-cart.iml" filepath="$PROJECT_DIR$/../ssocookie/sso-cart/sso-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssocookie/sso-login/sso-login.iml" filepath="$PROJECT_DIR$/../ssocookie/sso-login/sso-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssocookie/sso-main/sso-main.iml" filepath="$PROJECT_DIR$/../ssocookie/sso-main/sso-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssocookie/sso-vip/sso-vip.iml" filepath="$PROJECT_DIR$/../ssocookie/sso-vip/sso-vip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssocookie.iml" filepath="$PROJECT_DIR$/ssocookie.iml" />
+    </modules>
+  </component>
+</project>
