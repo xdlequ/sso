@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Cart 首页</title>
 </head>
 <body>
-$END$
+    <h1>欢迎来到购物车页面</h1>
+    <span>
+        <a th:if="${session.loginUser==null}" href="http://login.codeshop.com:9000/view/login?target=http://cart.codeshop.com:9012/view/index">登录</a>
+        <a th:unless="${session.loginUser==null}" href="#">退出</a>
+    </span>
+    <p th:unless="${session.loginUser==null}">
+        <span style="color:deepskyblue" th:text="${session.loginUser.username}"></span> 已登录
+    </p>
 </body>
 </html>
