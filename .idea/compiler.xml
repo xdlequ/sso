@@ -9,13 +9,16 @@
         <module name="sso-cart" />
         <module name="sso-login" />
         <module name="sso-main" />
+        <module name="sso-redis" />
         <module name="sso-vip" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="itdragon-sso" target="1.8" />
       <module name="sso-cart" target="1.8" />
       <module name="sso-login" target="1.8" />
       <module name="sso-main" target="1.8" />
+      <module name="sso-redis" target="1.8" />
       <module name="sso-vip" target="1.8" />
       <module name="ssocart" target="1.5" />
       <module name="ssocookie" target="1.5" />

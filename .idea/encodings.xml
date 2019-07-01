@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/../ssocookie" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/sso-cart" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/sso-login" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/sso-main" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/sso-vip" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/ssocart" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/ssologin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/ssomain" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ssocookie/ssovip" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-vip" charset="UTF-8" />
   </component>
 </project>
