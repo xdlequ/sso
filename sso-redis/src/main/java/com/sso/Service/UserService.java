@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.thymeleaf.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -83,6 +84,18 @@ public class UserService {
 
     public void logout(String token){
         jedisClient.del(REDIS_USER_SESSION_KEY+":"+token);
+    }
+
+    public Result queryUserByToken(String token) {
+        //根据token从redis中查询用户信息
+        String json=jedisClient.get(REDIS_USER_SESSION_KEY);
+        if (!StringUtils.isEmpty(json)){
+            return Result.build(400,"已过期，请重新登录");
+        }
+        //更新过期时间
+        jedisClient.expire(REDIS_USER_SESSION_KEY+":"+token,SSO_SESSION_EXPIRE);
+        //返回用户信息
+        return Result.ok(JsonUtil.JsonToEntity(json,User.class));
     }
 
 

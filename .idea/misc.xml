@@ -50,6 +50,7 @@
         <option value="$PROJECT_DIR$/sso-main/pom.xml" />
         <option value="$PROJECT_DIR$/sso-cart/pom.xml" />
         <option value="$PROJECT_DIR$/sso-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-redis-test/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
